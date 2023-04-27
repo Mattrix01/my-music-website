@@ -47,3 +47,14 @@ body {
   font-weight: 600;
   cursor: default;
 }
+
+.nav a {
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: 2.5s;
+}
+
+.nav a:hover {
+  color: var(--main-color);
+}
