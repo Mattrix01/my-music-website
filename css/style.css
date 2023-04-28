@@ -245,6 +245,11 @@ span {
 
 .portfolio-box img {
   width: 100%;
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.1);
 }
 
 .portfolio-box .portfolio-layer {
@@ -260,6 +265,12 @@ span {
   flex-direction: column;
   text-align: center;
   padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
 }
 
 .portfolio-layer h4 {
