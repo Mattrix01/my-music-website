@@ -58,14 +58,14 @@ section {
   cursor: default;
 }
 
-.nav a {
+.navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
   transition: 2.5s;
 }
 
-.nav a:hover,
+.navbar a:hover,
 .navbar a:active {
   color: var(--main-color);
 }
