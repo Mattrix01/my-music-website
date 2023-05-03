@@ -11,11 +11,18 @@
   font-family: "Poppins", sans-serif;
 }
 
-:root {
+/* :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --text-color: #fff;
   --main-color: #0ef;
+} */
+
+:root {
+  --bg-color: #1e2125;
+  --second-bg-color: #212a36;
+  --text-color: #fff;
+  --main-color: #3caded;
 }
 
 *::selection {
@@ -59,6 +66,10 @@ section {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
+}
+
+#logo1 {
+  color: var(--main-color);
 }
 
 .navbar a {
