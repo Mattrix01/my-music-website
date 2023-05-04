@@ -63,18 +63,35 @@ const typed = new Typed(".multiple-text", {
 });
 
 // audio player
-const icon = document.getElementById("icon");
-const audio = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
-let isPlaying = false;
+// const icon = document.getElementById("icon");
+// const audio = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
+// let isPlaying = false;
 
-icon.addEventListener("click", () => {
-  if (isPlaying) {
-    audio.pause();
-    icon.src = "./images/play.png";
-    isPlaying = false;
-  } else {
-    audio.play();
-    icon.src = "./images/pause.png";
-    isPlaying = true;
-  }
+// icon.addEventListener("click", () => {
+//   if (isPlaying) {
+//     audio.pause();
+//     icon.src = "./images/play.png";
+//     isPlaying = false;
+//   } else {
+//     audio.play();
+//     icon.src = "./images/pause.png";
+//     isPlaying = true;
+//   }
+// });
+
+// audio player
+const audio1 = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
+
+document.querySelectorAll(".song1").forEach((button) => {
+  button.addEventListener("click", () => {
+    audio1.play();
+  });
 });
+
+// const audio2 = new Audio("./audio/father-song.mp3");
+
+// document.querySelectorAll(".song2").forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio2.play();
+//   });
+// });
