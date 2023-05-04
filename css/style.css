@@ -35,6 +35,8 @@ html {
   overflow-x: hidden;
 }
 
+/* home section */
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -94,6 +96,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/bgpiano.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .home-img img {
@@ -176,6 +182,8 @@ span {
   box-shadow: none;
 }
 
+/* about section */
+
 .about {
   display: flex;
   justify-content: center;
@@ -206,6 +214,8 @@ span {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+
+/* services section */
 
 .services {
   min-height: auto;
@@ -252,6 +262,8 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
+
+/* portfolio section */
 
 .portfolio {
   background: var(--second-bg-color);
@@ -332,6 +344,8 @@ span {
   color: var(--second-bg-color);
 }
 
+/* contact section */
+
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
@@ -377,6 +391,8 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
+
+/* footer section */
 
 .footer {
   display: flex;

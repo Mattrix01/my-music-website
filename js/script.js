@@ -61,3 +61,20 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 });
+
+// audio player
+const icon = document.getElementById("icon");
+const audio = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
+let isPlaying = false;
+
+icon.addEventListener("click", () => {
+  if (isPlaying) {
+    audio.pause();
+    icon.src = "./images/play.png";
+    isPlaying = false;
+  } else {
+    audio.play();
+    icon.src = "./images/pause.png";
+    isPlaying = true;
+  }
+});
