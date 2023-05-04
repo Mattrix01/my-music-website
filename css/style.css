@@ -96,10 +96,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/bgpiano.png");
+  background-image: url("../images/bgpiano2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-position-y: -20rem;
 }
 
 .home-img img {
