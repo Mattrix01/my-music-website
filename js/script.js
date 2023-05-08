@@ -62,36 +62,42 @@ const typed = new Typed(".multiple-text", {
   loop: true,
 });
 
-// audio player
-// const icon = document.getElementById("icon");
-// const audio = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
-// let isPlaying = false;
+// const audio1 = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
 
-// icon.addEventListener("click", () => {
-//   if (isPlaying) {
-//     audio.pause();
-//     icon.src = "./images/play.png";
-//     isPlaying = false;
-//   } else {
-//     audio.play();
-//     icon.src = "./images/pause.png";
-//     isPlaying = true;
-//   }
-// });
-
-// audio player
-const audio1 = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
-
-document.querySelectorAll(".song1").forEach((button) => {
-  button.addEventListener("click", () => {
-    audio1.play();
-  });
-});
-
-// const audio2 = new Audio("./audio/father-song.mp3");
-
-// document.querySelectorAll(".song2").forEach((button) => {
+// document.querySelectorAll(".song1").forEach((button) => {
 //   button.addEventListener("click", () => {
-//     audio2.play();
+//     audio1.play();
 //   });
 // });
+
+const icon = document.getElementById("icon");
+const audio = new Audio("./audio/MattKnight-Drum&Bass-Showreel2023.mp3");
+let isPlaying = false;
+
+icon.addEventListener("click", () => {
+  if (isPlaying) {
+    audio.pause();
+    icon.src = "./images/play.png";
+    isPlaying = false;
+  } else {
+    audio.play();
+    icon.src = "./images/pause.png";
+    isPlaying = true;
+  }
+});
+
+const icon2 = document.getElementById("icon2");
+const audio2 = new Audio("./audio/father-song.mp3");
+let isPlaying2 = false;
+
+icon2.addEventListener("click", () => {
+  if (isPlaying2) {
+    audio2.pause();
+    icon2.src = "./images/play.png";
+    isPlaying2 = false;
+  } else {
+    audio2.play();
+    icon2.src = "./images/pause.png";
+    isPlaying2 = true;
+  }
+});

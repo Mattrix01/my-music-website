@@ -265,7 +265,7 @@ span {
   margin: 1rem 0 3rem;
 }
 
-/* portfolio section */
+/* portfolio / showreel section */
 
 .portfolio {
   background: var(--second-bg-color);
@@ -318,7 +318,11 @@ span {
   transition: 0.5s ease;
 }
 
-.portfolio-box:hover .portfolio-layer {
+/* .portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
+} */
+
+.portfolio-box .portfolio-layer {
   transform: translateY(0);
 }
 
@@ -344,6 +348,12 @@ span {
 .portfolio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+/* showreel buttons */
+.portfolio-layer img {
+  max-width: 100px;
+  cursor: pointer;
 }
 
 /* contact section */
