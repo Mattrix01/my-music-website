@@ -114,7 +114,7 @@ section {
   }
 
   50% {
-    transform: translateY(-4rem);
+    transform: translateY(-4.5rem);
   }
 
   100% {
@@ -122,10 +122,10 @@ section {
   }
 }
 /* image rotate animation */
-.home-img img {
-  -webkit-animation: spin 4s linear infinite;
-  -moz-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
+/* .home-img img {
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
 }
 @-moz-keyframes spin {
   100% {
@@ -142,7 +142,7 @@ section {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
 /* image rotate animation */
 
 .home-content h3 {
@@ -286,6 +286,34 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+
+.services-box img {
+  max-width: 7rem;
+  color: var(--main-color);
+}
+
+/* image rotate animation */
+.services-box img {
+  -webkit-animation: spin 9s linear infinite;
+  -moz-animation: spin 9s linear infinite;
+  animation: spin 9s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 /* portfolio / showreel section */
