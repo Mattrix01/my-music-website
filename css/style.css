@@ -104,7 +104,7 @@ section {
 }
 
 .home-img img {
-  width: 35vw;
+  width: 45vw;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -114,7 +114,7 @@ section {
   }
 
   50% {
-    transform: translateY(-4.5rem);
+    transform: translateY(-3rem);
   }
 
   100% {
@@ -166,7 +166,7 @@ span {
 
 .home-content p {
   font-size: 1.6rem;
-  padding-right: 4rem;
+  padding-right: 1rem;
 }
 
 .social-media a {
@@ -556,7 +556,7 @@ span {
   }
 
   .home-img img {
-    width: 70vw;
+    width: 90vw;
     margin-top: 4rem;
   }
 
